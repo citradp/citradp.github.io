@@ -208,7 +208,7 @@ ul li a{
     /* color: white;  */
     position: relative;
     font-family: 'Lilita One', cursive;
-    background: url('london1.jpg');
+    background: url('../css/london1.jpg');
     background-size: 350px;
     background-position-x: -40px;
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ ul li a{
     color: white; 
     position: relative;
     font-family: 'Lilita One', cursive;
-    background: url('paris2.jpg');
+    background: url('../css/paris2.jpg');
     background-size: cover;
     background-position-y: -70px;
     background-repeat: no-repeat;
@@ -363,7 +363,7 @@ ul li a{
     color: white; 
     position: relative;
     font-family: 'Lilita One', cursive;
-    background: url('tokyo.jpg');
+    background: url('../css/tokyo.jpg');
     background-size: cover;
     background-position-y: -150px;
     background-repeat: no-repeat;
@@ -506,7 +506,7 @@ ul li a{
     color: white; 
     position: relative;
     font-family: 'Lilita One', cursive;
-    background: url('frankfurt.jpg');
+    background: url('../css/frankfurt.jpg');
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
@@ -582,7 +582,7 @@ ul li a{
     color: white; 
     position: relative;
     font-family: 'Lilita One', cursive;
-    background: url('maldives.jpg');
+    background: url('../css/maldives.jpg');
     background-size: cover;
     background-position-y: -70px;
     background-repeat: no-repeat;
@@ -656,7 +656,7 @@ ul li a{
     color: white; 
     position: relative;
     font-family: 'Lilita One', cursive;
-    background: url('bandung.jpg');
+    background: url('../css/bandung.jpg');
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
