@@ -1,0 +1,306 @@
+body{
+  background-color:#ce3635;
+  background: url('leaves.jpg') 0 0 repeat;
+  background-size: 75%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container{
+  margin-top: 7%;
+}
+
+#a{
+}
+
+#b{
+  background-color: white;
+  height: 35rem;
+  /* width: 1000px; */
+  border-left: 5px solid #f6416c;
+  border-top: 5px solid #00b8a9;
+  border-right: 5px solid #ffde7d;
+  border-bottom: 15px solid #003f5c;
+}
+
+#imgbg{
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  z-index: 3;
+  width: 340px;
+  height: 150px;
+  background: repeating-linear-gradient(
+  45deg,
+  rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.2) 10px,
+  rgba(0, 0, 0, 0.3) 10px,
+  rgba(0, 0, 0, 0.3) 20px
+)
+}
+
+#profilepic{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  z-index: 4;
+}
+
+#photo{
+  /* margin-top: 0px;
+  width: 200px;
+  height: 200px;
+  background: repeating-linear-gradient(
+  45deg,
+  rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.2) 10px,
+  rgba(0, 0, 0, 0.3) 10px,
+  rgba(0, 0, 0, 0.3) 20px
+) */
+/* , */
+/* background-color: #7dd4d4; */
+/* url(http://www.graphicartsunit.com/images/noise.png); */
+/* ,
+url(http://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png); */
+  background-color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#name{
+  font-family: "Pacifico";
+}
+
+.desc{
+  font-family: "Rubik";
+}
+
+.socmed{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0;
+}
+
+.fa-github{
+  color: #15b7b9;
+  margin: 0;
+}
+
+.fa-twitter{
+  color: #155263;
+}
+
+.fa-facebook{
+
+}
+
+.fa-instagram{
+  color: #928a97;
+}
+
+.rowfooter{
+  /* position:absolute;
+  bottom:0; */
+  text-align: center;
+  height: 5rem;
+  /* background-color: blue; */
+  padding-top: 3rem;
+  font-size: 12px;
+}
+
+.rowupper{
+  /* z-index: 99;
+  padding: 0;
+  margin: 0; */
+}
+
+#c{
+  background-color: transparent;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .description{
+    z-index: 99;
+  }
+  #imgbg{
+    position: relative;
+    left: 0px;
+    top: 80px;
+    z-index: 3;
+    width: 250px;
+    height: 150px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 10px,
+    rgba(0, 0, 0, 0.3) 10px,
+    rgba(0, 0, 0, 0.3) 20px
+  );
+
+  }
+
+  #profilepic{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: -80px;
+    z-index: 4;
+  }
+
+  table{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 766px) {
+
+  #photo{
+    position: relative;
+    left: auto;
+    top: 0px;
+    z-index: 3;
+    width: 230px;
+    height: 200px;
+    /* -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg); */
+    background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 10px,
+    rgba(0, 0, 0, 0.3) 10px,
+    rgba(0, 0, 0, 0.3) 20px
+  );
+    /* display: none; */
+  }
+
+  #imgbg{
+    display: none;
+  }
+
+  #profilepic{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 140px;
+    top: 10px;
+    z-index: 4;
+    margin-bottom: 0;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .desc{
+    text-align: center;
+    line-height: 2;
+  }
+
+  /* table{
+    font-size: 12px;
+    text-align: center;
+  } */
+
+  #b{
+    height: 40rem;
+  }
+
+  p{
+    display: inline;
+
+  }
+  table{
+    margin: 0 auto;
+  }
+
+  .socmed{
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 328px) {
+
+    #photo{
+      position: relative;
+      left: auto;
+      top: 0px;
+      z-index: 3;
+      width: 230px;
+      height: 200px;
+      /* -webkit-transform: rotate(-30deg);
+      transform: rotate(-30deg); */
+      background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 10px,
+      rgba(0, 0, 0, 0.3) 10px,
+      rgba(0, 0, 0, 0.3) 20px
+    );
+      /* display: none; */
+    }
+
+    #imgbg{
+      display: none;
+    }
+
+    #profilepic{
+      width:150px;
+      height:150px;
+      object-fit:cover;
+      background-size: cover;
+      border-radius: 50%;
+      position: relative;
+      left: 140px;
+      top: 10px;
+      z-index: 4;
+      margin-bottom: 0;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    .desc{
+      text-align: center;
+      line-height: 2;
+    }
+
+    /* table{
+      font-size: 12px;
+      text-align: center;
+    } */
+
+    #b{
+      height: 40rem;
+    }
+
+    p{
+      display: inline;
+
+    }
+    table{
+      margin: 0 auto;
+    }
+
+    .socmed{
+      padding: 0;
+    }
+}
